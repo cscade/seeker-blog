@@ -1,0 +1,23 @@
+div.about
+
+	img(src="/images/sandal.png", width="100", height="100", align="left")
+	p
+		|	this is ascii art of a flipflop.
+		|	it's a png.
+		|	lol.
+
+h3 recent articles
+
+ul
+	each article in recent_articles
+		li
+			a(href=article.path) #{article.title}
+			div.date #{article.formatted_date}
+
+h3 links
+
+ul
+	li
+		a(href="/archive/") archive
+	li
+		a(href="/feed/rss.xml") feed

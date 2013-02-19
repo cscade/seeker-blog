@@ -1,0 +1,13 @@
+{
+	"title": "Seeker Brewing Co. Blog",
+	"description": "Technical articles, equipment tips, and home-brewed ramblings.",
+	"keywords": ["homebrew", "brewing", "nano", "brewery"],
+	"authors": {
+		"cc": {
+			"name": "Carson S. Christian",
+			"gravatar": "cc@seekerbeer.com"
+		}
+	},
+	"articles": "articles",
+	"domain": "http://blog.seekerbeer.com"
+}

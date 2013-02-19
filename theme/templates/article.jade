@@ -1,0 +1,17 @@
+extends layout
+
+block sidebar
+
+	include sidebar
+
+block content
+
+	article
+		h2
+			a(href=article.path) #{article.title}
+
+		include article-meta
+
+		div.content
+
+			!{article.content}
