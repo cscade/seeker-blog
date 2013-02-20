@@ -6,6 +6,7 @@ html(lang="en")
 		meta(name="robots", content="index,follow")
 		meta(name="viewport", content="width=device-width,initial-scale=1")
 
+		link(href="http://fonts.googleapis.com/css?family=Raleway|Marvel",  rel='stylesheet', type='text/css')
 		link(href="/css/blog.css", rel="stylesheet")
 		link(rel="alternate", type="application/rss+xml", title=blogTitle+" » rss", href="/feed/rss.xml")
 
@@ -16,7 +17,7 @@ html(lang="en")
 			header
 				h1
 					a(href="/") #{blogTitle}
-					small  [#{blogDescription}]
+					small #{blogDescription}
 
 			div#content-container
 
@@ -29,5 +30,3 @@ html(lang="en")
 					block sidebar
 
 			footer
-				|	powered by
-				a(href="https://github.com/bmharris/flipflop") flipflop

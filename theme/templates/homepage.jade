@@ -4,22 +4,15 @@ block title
 	#{title}
 
 block sidebar
-
 	include sidebar
 
 block content
-
 	each article in articles
-
 		article
 			h2
 				a(href=article.path) #{article.title}
-
 			include article-meta
-
 			div.content
-
 				!{article.content}
-
 			div.footer
 				a(href=article.path+'#disqus_thread')
