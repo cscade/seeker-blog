@@ -97,5 +97,3 @@ It all sounds pretty complicated, but it's super easy to do, now that I have the
 I'll leave you with one more picture, showing the aftermath of the last beer I kegged using this process. It was dry hopped with 8oz of Amarillo, on a 10 gallon batch. This is the sight glass assembly removed after the conical was empty. As you can see, there's lots still to be filtered, even after good drops! 
 
 ![](http://seekerbeer.com/hbtalk/filter_transfer/05.jpg)
-
-#### Cheers!
